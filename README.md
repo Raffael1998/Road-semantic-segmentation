@@ -1,11 +1,9 @@
 # <img src="assets/CARRSQ_LOGO.jfif" width=30> Road semantic segmentation
 This Git teaches you how to train the CSAIL vision model with the dataset you want (see https://github.com/CSAILVision/semantic-segmentation-pytorch)
-
 The CSAIL git offers a model based on a 150 classes dataset = interior and outdoor / urban landscapes
-
 If you want to train a more specific segmentation model with less classes :
 
-steps :
+The steps :
 - import the CSAIL git
 - decide on a number of classes and find (or create) a dataset that  fits your needs (colormap images and reference images). The size of the images doesn't matter but I recommand not too large images
 - if not done already, you can divide your dataset to have training data and validation data
