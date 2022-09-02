@@ -9,3 +9,5 @@ The steps :
 - create a .odgt file that contains the path of your greyscale images and reference images using createodgt.py
 - go to /config folder and change the training and validation path (validation data is not needed to complete a full training), the number of classes and other hyperparameters for the training if you wish
 -then follow the CSAIL vision git instruction to launch a training. For example python train.py --gpus GPUS --cfg config/ade20k-resnet50dilated-ppm_deepsup.yaml. Make sure you have 1 or several GPUs available, and that they are identified by pytorch.
+
+Databases used in my case : Berkley Deep Drive and Cityscape. I kept 19 classes from Cityscape by editing all the picture and putting a black color to every color I didn't want.
